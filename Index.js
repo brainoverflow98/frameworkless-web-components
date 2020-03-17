@@ -48,7 +48,7 @@ class Index extends HTMLElement {
     });
 
     this.addEventListener('addplayer',function(e){
-      players.push(e.player);
+      players.push(e.detail);
       console.log(players);
       let playerHtml = /*html*/`
         <app-player 

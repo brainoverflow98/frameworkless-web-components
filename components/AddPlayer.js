@@ -16,7 +16,7 @@ class AddPlayer extends HTMLElement {
             let inputs = e.target.elements;
             let newPlayer = {
                 name: inputs["name"].value,
-                points: inputs["points"].value
+                points: parseInt(inputs["points"].value)
             };            
             let event = new CustomEvent('addplayer', { bubbles:true, detail: newPlayer });
             this.dispatchEvent(event);
