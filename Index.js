@@ -64,5 +64,5 @@ class Index extends HTMLElement {
 
 
 customElements.define('app-index', Index);
-export let success = true;
+export {};
 
