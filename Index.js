@@ -1,6 +1,6 @@
-require("./components/Navbar.js");
-require ("./components/Player.js");
-require ("./components/AddPlayer.js");
+import "./components/Navbar.js";
+import "./components/Player.js";
+import "./components/AddPlayer.js";
 
 let players = [
   {
@@ -64,5 +64,5 @@ class Index extends HTMLElement {
 
 
 customElements.define('app-index', Index);
-
+export let success = true;
 
