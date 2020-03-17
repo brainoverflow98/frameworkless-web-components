@@ -1,6 +1,6 @@
-import Navbar from "./components/Navbar.js";
-import Player from "./components/Player.js";
-import AddPlayer from "./components/AddPlayer.js";
+import "./components/Navbar.js";
+import "./components/Player.js";
+import "./components/AddPlayer.js";
 
 let players = [
   {
