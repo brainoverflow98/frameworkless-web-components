@@ -45,6 +45,7 @@ class Index extends HTMLElement {
     this.addEventListener('removeplayer',function(e){
       players = players.filter(player => player.name !== e.detail);
       e.target.parentNode.removeChild(e.target);
+      console.log(players);
     });
 
     this.addEventListener('addplayer',function(e){
